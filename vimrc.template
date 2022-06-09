@@ -1,0 +1,30 @@
+call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
+
+
+" Plugin examples
+"   Always loaded
+"Plug 'tpope/vim-sensible'
+"   On-demand loading
+"Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+
+
+" Plugins
+Plug 'tpope/vim-sensible'
+Plug 'scrooloose/nerdtree'
+
+
+" Default to turn on option
+set hlsearch
+set nu
+set tabstop=4
+
+
+" Keymapping
+"   nnoremap only for normal mode
+"   inoremap only for insert mode
+"   vnoremap only for visual mode
+nnoremap <silent> <F5> :NERDTree<CR>
+
+
+call plug#end()
+
