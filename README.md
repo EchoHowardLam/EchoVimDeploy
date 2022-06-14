@@ -15,7 +15,7 @@ nerdtree
 # Deployment
 ```
 # These commands are safe to be executed more than once
-git clone git@github.com:EchoHowardLam/EchoVimDeploy.git
+git clone https://github.com/EchoHowardLam/EchoVimDeploy.git
 bash ./EchoVimDeploy/deploy.sh
 ```
 
