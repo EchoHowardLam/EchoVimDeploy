@@ -17,6 +17,7 @@ Plug 'scrooloose/nerdtree'
 set hlsearch
 set nu
 set tabstop=4
+set shiftwidth=4
 
 
 " Keymapping
